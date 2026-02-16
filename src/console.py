@@ -1,1 +1,10 @@
-# TODO: Agrega el código de las clases de la interfaz de usuario aquí. Borra este comentario al terminar.
+from notebook import Notebook
+from note import Note
+
+
+class Console:
+
+    def __init__(self):
+        self.notebook = Notebook()
+
+    
