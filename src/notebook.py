@@ -10,7 +10,7 @@ class Notebook:
         code = self._next_code
         self._next_code += 1
 
-        note = Note(code, title, text, importance)
+        Note = note(code, title, text, importance)
         self.notes.append(note)
 
         return code
