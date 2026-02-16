@@ -1,8 +1,4 @@
-# TODO: Agrega el código de las clases del modelo aquí. Borra este comentario al terminar.
-
 import datetime
-
-
 class Note:
 
     HIGH = "HIGH"
@@ -24,7 +20,7 @@ class Note:
                 return(f"Date: {self.creation_date}n\
                          {self.title}: {self.text}")
             
-        
+
             
     
             
